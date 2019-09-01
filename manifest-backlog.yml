@@ -3,7 +3,7 @@ applications:
   path: ./applications/backlog-server/build/libs/backlog-server.jar
   routes:
   - route: backlog-pal-stsai.cfapps.io
-  memory: 100M
+  memory: 128M
   instances: 1
   env:
     REGISTRATION_SERVER_ENDPOINT: http://registration-pal-stsai.cfapps.io
